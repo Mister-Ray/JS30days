@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+</head>
+<body>
+please open up your console    
+</body>
+<script>
+    const obj = [
+        { name: 'Tom', gender: 'male', age: 46, career: 'teacher' },
+        { name: 'Marry', gender: 'female', age: 35, career: 'housewife' },
+        { name: 'Jerry', gender: 'male', age: 7, career: 'student' },
+        { name: 'Kate', gender: 'male', age: 31, career: 'cook' },
+        { name: 'Lanney', gender: 'male', age: 23, career: 'bus driver' },
+        { name: 'Freddy', gender: 'male', age: 18, career: 'clerck' },
+    ];
+    console.log(obj); 
+    console.table(obj);
+    const youngs = obj.filter(young => ( obj.age < 30))
+    console.log(young);
+</script>
+</html>
